@@ -1,0 +1,105 @@
+/* App.css */
+body {
+  font-family: Arial, sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: #494949;
+  margin: 0;
+}
+
+.container {
+  background-color: #2b2b2b;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px 10px rgba(255, 255, 255, 0.1);
+  text-align: center;
+}
+
+h1 {
+  margin-bottom: 20px;
+  color: rgb(255, 255, 255);
+  text-shadow: 0 0 10px rgba(255, 255, 255, 0.5);
+}
+
+input[type="text"] {
+  background-color: #ffffff;
+  height: 20px;
+  padding: 10px;
+  width: 200px;
+  border: 2px solid #000000;
+  border-radius: 5px;
+  color: #000000;
+  outline: none;
+  box-shadow: 0 0 10px 2px white;
+}
+
+button {
+  border: none;
+  outline: none !important ;
+  margin-left: 10px;
+width: 43px;
+height: 43px;
+padding: 9px;
+background-color: #ffffff;
+box-shadow: 0 0 10px 2px white;
+}
+
+button:hover {
+  background-color: #5aed7a;
+  outline: none;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+  margin-top: 20px;
+}
+
+li {
+  background-color: #f8f9fa;
+  padding: 10px;
+  margin: 5px 0;
+  border-radius: 5px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: #000000;
+  box-shadow: 0 0 10px 2px white;
+}
+
+li button {
+  background-color: #ffffff;
+  padding: 5px 10px;
+  border: none;
+  color: #000000;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-left: 2px;
+  outline: none;
+  box-shadow: 0 0 10px 1px black;
+  margin-left: 15px;
+}
+
+li button:hover {
+  background-color: #f42a3e;
+}
+
+li .edit {
+  background-color: #ffffff;
+  color: #000000;
+  outline: none;
+}
+
+li .edit:hover {
+  background-color: #fdc92c;
+  outline: none;
+}
+
+.main{
+  outline: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
